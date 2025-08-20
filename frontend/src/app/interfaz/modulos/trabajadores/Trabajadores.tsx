@@ -1,24 +1,24 @@
-import { Tabla } from '@pc-component-ui-test-v2/tabla';
-import { useState } from 'react';
-import { toast } from 'sonner';
-import { useShallow } from 'zustand/react/shallow';
+import { Tabla } from "@pc-component-ui-test-v2/tabla";
+import { useState } from "react";
+import { toast } from "sonner";
+import { useShallow } from "zustand/react/shallow";
 
-import { Button } from 'comunes/controles/Buttons';
-import Condicional from 'comunes/funcionales/Condicional';
-import usePermisos from 'hooks/Permisos';
-import { filtrosAplicados, filtrosInfo } from 'utilidades/FuncionesApp';
+import { Button } from "comunes/controles/Buttons";
+import Condicional from "comunes/funcionales/Condicional";
+import usePermisos from "hooks/Permisos";
+import { filtrosAplicados, filtrosInfo } from "utilidades/FuncionesApp";
 
-import type { TrabajadoresType } from './types/TrabajadoresTypes';
+import type { TrabajadoresType } from "./types/TrabajadoresTypes";
 
-import styles from './estilos/Generales.module.css';
-import { IconoEditar } from './recursos/Iconografia';
-import trabajadoresIniciales from './recursos/TrabajadoresPrueba.json';
-import CargarTrabajadores from './secciones/componentes/CargarTrabajadores';
-import CrearTrabajador from './secciones/CrearTrabajador';
-import EditarTrabajador from './secciones/EditarTrabajador';
-import FiltrosTrabajador from './secciones/FiltrosTrabajador';
-import { useFiltrosTrabStore } from './store/StoreFiltroTrabajadores';
-import { prepararDatosTrabajadorEditar } from './store/StoreTrabajadores';
+import styles from "./estilos/Generales.module.css";
+import { IconoEditar } from "./recursos/Iconografia";
+import trabajadoresIniciales from "./recursos/TrabajadoresPrueba.json";
+import CargarTrabajadores from "./secciones/componentes/CargarTrabajadores";
+import CrearTrabajador from "./secciones/CrearTrabajador";
+import EditarTrabajador from "./secciones/EditarTrabajador";
+import FiltrosTrabajador from "./secciones/FiltrosTrabajador";
+import { useFiltrosTrabStore } from "./store/StoreFiltroTrabajadores";
+import { prepararDatosTrabajadorEditar } from "./store/StoreTrabajadores";
 
 const Trabajadores = () => {
   const {
@@ -61,11 +61,11 @@ const Trabajadores = () => {
     filtrar: false,
     editarTrabajador: false,
     crearTrabajador: false,
-    idEmpresa: '',
-    idGrupoEmpresarial: '',
+    idEmpresa: "",
+    idGrupoEmpresarial: "",
     cargarTrabajadores: false,
     editarProps: {
-      idTrabajador: '',
+      idTrabajador: "",
     },
   });
 
@@ -110,52 +110,52 @@ const Trabajadores = () => {
 
   const filtros = {
     activo: filtrosInfo(
-      activoAplicado ? 'activo' : 'inactivo',
-      activoAplicado ? 'trabajador activo' : 'trabajador inactivo'
+      activoAplicado ? "activo" : "inactivo",
+      activoAplicado ? "trabajador activo" : "trabajador inactivo"
     ),
-    cedula: filtrosInfo(cedulaAplicado, 'cédula'),
+    cedula: filtrosInfo(cedulaAplicado, "cédula"),
     fechaIngreso: filtrosInfo(
       fechaIngresoIniAplicado || fechaIngresoFinAplicado,
-      'fecha de ingreso'
+      "fecha de ingreso"
     ),
-    nombre: filtrosInfo(nombreAplicado, 'nombre'),
-    cargo: filtrosInfo(empresaAplicada, 'empresa'),
+    nombre: filtrosInfo(nombreAplicado, "nombre"),
+    cargo: filtrosInfo(empresaAplicada, "empresa"),
   };
 
   return (
     <>
-      <h1 className='titulo_modulos'>Trabajadores</h1>
+      <h1 className="titulo_modulos">Trabajadores</h1>
 
       <div className={styles.contenedor_botones}>
         <div className={styles.acciones_principales}>
           <Button
-            icon='new'
-            name='Crear trabajador'
-            sizeBtn='small'
-            type='button'
-            typeBtn='primary'
-            permiso='escribir'
-            id='crear-trabajador'
+            icon="new"
+            name="Crear trabajador"
+            sizeBtn="small"
+            type="button"
+            typeBtn="primary"
+            permiso="escribir"
+            id="crear-trabajador"
             permisos={accesos.trabajadores}
             onClick={() => setEstados({ ...estados, crearTrabajador: true })}
           />
           <Button
-            icon='import'
-            name='Importar trabajadores'
-            sizeBtn='small'
-            type='button'
-            typeBtn='import'
-            id='importar-trabajadores'
+            icon="import"
+            name="Importar trabajadores"
+            sizeBtn="small"
+            type="button"
+            typeBtn="import"
+            id="importar-trabajadores"
             permisos={accesos.trabajadores}
             onClick={() => setEstados({ ...estados, cargarTrabajadores: true })}
           />
           <Button
-            icon='update'
-            name='Actualizar tabla'
-            sizeBtn='small'
-            type='button'
-            typeBtn='pendings'
-            id='refrescar-tabla'
+            icon="update"
+            name="Actualizar tabla"
+            sizeBtn="small"
+            type="button"
+            typeBtn="pendings"
+            id="refrescar-tabla"
             permisos={accesos.trabajadores}
           />
         </div>
@@ -171,13 +171,13 @@ const Trabajadores = () => {
             onClick={iniciarTour}
           /> */}
           <Button
-            icon='filter'
-            name='Filtros'
-            sizeBtn='normal'
-            type='button'
-            typeBtn='filter'
-            permiso='escribir'
-            id='filtro-trabajadores'
+            icon="filter"
+            name="Filtros"
+            sizeBtn="normal"
+            type="button"
+            typeBtn="filter"
+            permiso="escribir"
+            id="filtro-trabajadores"
             permisos={accesos.trabajadores}
             onClick={() => setEstados({ ...estados, filtrar: true })}
           />
@@ -187,54 +187,54 @@ const Trabajadores = () => {
         <p>{filtrosAplicados(filtros)}</p>
       </div>
       <Tabla
-        id='tabla_trabajadores'
+        id="tabla_trabajadores"
         tableData={trabajadoresFiltrados}
         configurations={{
           tableColumns: [
             {
-              label: 'Expediente',
-              key: 'cedula',
-              styleConfig: { textAlign: 'center', color: 'var(--brand-1)' },
-              rowStyleConfig: { textAlign: 'center' },
+              label: "Expediente",
+              key: "cedula",
+              styleConfig: { textAlign: "center", color: "var(--brand-1)" },
+              rowStyleConfig: { textAlign: "center" },
             },
             {
-              label: 'Nombre completo',
-              key: 'nombre',
-              styleConfig: { textAlign: 'start', color: 'var(--brand-1)' },
-              rowStyleConfig: { textAlign: 'start' },
+              label: "Nombre completo",
+              key: "nombre",
+              styleConfig: { textAlign: "start", color: "var(--brand-1)" },
+              rowStyleConfig: { textAlign: "start" },
             },
             {
-              label: 'Empresa',
-              key: 'empresa',
-              styleConfig: { textAlign: 'start', color: 'var(--brand-1)' },
-              rowStyleConfig: { textAlign: 'start' },
+              label: "Empresa",
+              key: "empresa",
+              styleConfig: { textAlign: "start", color: "var(--brand-1)" },
+              rowStyleConfig: { textAlign: "start" },
             },
             {
-              label: 'Gerencia',
-              key: 'gerencia',
-              styleConfig: { textAlign: 'center', color: 'var(--brand-1)' },
-              rowStyleConfig: { textAlign: 'center' },
+              label: "Gerencia",
+              key: "gerencia",
+              styleConfig: { textAlign: "center", color: "var(--brand-1)" },
+              rowStyleConfig: { textAlign: "center" },
             },
             {
-              label: 'Área',
-              key: 'area',
-              styleConfig: { textAlign: 'center', color: 'var(--brand-1)' },
-              rowStyleConfig: { textAlign: 'center' },
+              label: "Área",
+              key: "area",
+              styleConfig: { textAlign: "center", color: "var(--brand-1)" },
+              rowStyleConfig: { textAlign: "center" },
             },
             {
-              label: 'Empresa',
-              key: 'empresa',
-              styleConfig: { textAlign: 'start', color: 'var(--brand-1)' },
-              rowStyleConfig: { textAlign: 'start' },
+              label: "Empresa",
+              key: "empresa",
+              styleConfig: { textAlign: "start", color: "var(--brand-1)" },
+              rowStyleConfig: { textAlign: "start" },
             },
           ],
         }}
         controls={[
           {
-            tooltip: 'Editar trabajador',
-            id: 'editar-trabajador',
+            tooltip: "Editar trabajador",
+            id: "editar-trabajador",
             icon: <IconoEditar />,
-            event: (e) => {
+            event: (e: any) => {
               if (!e.data) return;
 
               prepararDatosTrabajadorEditar(e.data);
@@ -273,12 +273,12 @@ const Trabajadores = () => {
 
       <Condicional condicion={estados.cargarTrabajadores === true}>
         <CargarTrabajadores
-          titulo='Cargue de Trabajadores'
+          titulo="Cargue de Trabajadores"
           close={() => setEstados({ ...estados, cargarTrabajadores: false })}
-          rutaStorage='empresas/trabajadores'
+          rutaStorage="empresas/trabajadores"
           archivosCargados={(e) => {
             if (e.length > 0) {
-              toast('Se han cargado los trabajadores');
+              toast("Se han cargado los trabajadores");
             }
           }}
         />

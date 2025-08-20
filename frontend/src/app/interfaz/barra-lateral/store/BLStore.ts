@@ -1,18 +1,20 @@
-import { persist } from 'zustand/middleware';
-import { create } from 'zustand';
 
-import { IBLState } from '../types/StoreTypes';
+import { create } from 'zustand';
+import { persist } from 'zustand/middleware';
+
+import type { IBLState } from '../types/StoreTypes';
+
 import { UsuarioConfigState } from '../constantes/ConstGenerales';
 
 export const useBLStore = create(
   persist<IBLState>(
-    (set) => ({
+    set => ({
       ...UsuarioConfigState,
-      abrirModulos: (ver): void => set({ verModulo: ver }),
-      abrirOtrosModulos: (ver): void => set({ verOtrosModulos: ver }),
+      abrirModulos: (ver): void => { set({ verModulo: ver }); },
+      abrirOtrosModulos: (ver): void => { set({ verOtrosModulos: ver }); },
     }),
     {
       name: 'profile',
-    }
-  )
+    },
+  ),
 );

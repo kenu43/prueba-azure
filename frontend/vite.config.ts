@@ -1,5 +1,5 @@
 import react from '@vitejs/plugin-react';
-import path from 'node:path';
+import * as path from 'node:path';
 import { defineConfig } from 'vite';
 import csp from 'vite-plugin-csp-guard';
 
@@ -27,7 +27,7 @@ export default defineConfig({
         'frame-ancestors': ['\'none\''],
       },
       build: {
-        sri: true,
+        sri: false,
       },
     }),
   ],

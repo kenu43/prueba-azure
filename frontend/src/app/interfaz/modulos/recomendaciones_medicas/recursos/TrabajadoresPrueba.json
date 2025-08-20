@@ -1,0 +1,50 @@
+[
+  {
+    "cedula": "123456789",
+    "nombre": "Laura Pérez",
+    "recomendacion": "Reportar la emisión de recomendaciones médico - laborales",
+    "gerencia": "Gestión de la demanda",
+    "area": "Gerencia de gestión de la demanda",
+    "estadoReporte": "Si"
+  },
+  {
+    "cedula": "987654321",
+    "nombre": "Carlos Ramírez",
+    "recomendacion": "Reportar una discapacidad certificada",
+    "gerencia": "Gerencia de gestión digital IT",
+    "area": "Dirección de implementación",
+    "estadoReporte": "Si"
+  },
+  {
+    "cedula": "1122334455",
+    "nombre": "Ana Gómez",
+    "recomendacion": "Reportar la emisión de recomendaciones médico - laborales",
+    "gerencia": "Gerencia de evolución digital IT",
+    "area": "Dirección de experiencia, soporte y operación IT",
+    "estadoReporte": "No"
+  },
+  {
+    "cedula": "6677889900",
+    "nombre": "José Martínez",
+    "recomendacion": "Reportar una notificación de concepto de rehabilitación",
+    "gerencia": "Gerencia de arquitectura IT",
+    "area": "Agilismo y nuevas formas de trabajo",
+    "estadoReporte": "Si"
+  },
+  {
+    "cedula": "573434242",
+    "nombre": "Aura Galeano",
+    "recomendacion": "Reportar una notificación de pérdida de capacidad laboral",
+    "gerencia": "Gestión de la demanda",
+    "area": "Dirección de experiencia, soporte y operación IT",
+    "estadoReporte": "No"
+  },
+  {
+    "cedula": "7686534223",
+    "nombre": "Camilo Perez",
+    "recomendacion": "Reportar una notificación de concepto de rehabilitación",
+    "gerencia": "Gerencia de arquitectura IT",
+    "area": "Agilismo y nuevas formas de trabajo",
+    "estadoReporte": "Si"
+  }
+]

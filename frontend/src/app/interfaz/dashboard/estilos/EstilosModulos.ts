@@ -1,0 +1,73 @@
+export const estilosModulos = {
+  trabajadores: {
+    colorFrom: '#EF4444',
+    colorTo: '#F97316',
+    bgColor: '#FEF2F2',
+    description: 'Gestión completa del personal y recursos humanos',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`,
+  },
+  epp: {
+    colorFrom: '#3B82F6',
+    colorTo: '#06B6D4',
+    bgColor: '#EFF6FF',
+    description: 'Control y asignación de equipos de protección personal',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+  },
+  dotacion: {
+    colorFrom: '#F59E0B',
+    colorTo: '#EAB308',
+    bgColor: '#FFFBEB',
+    description: 'Administración de uniformes, tallas y entregas',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 14"><!-- Icon from Streamline by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 .5v4M8.5 11H11M.5 4.5h13v8a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1v-8h0Z"/><path d="M.5 4.5L2 1.61A2 2 0 0 1 3.74.5h6.52a2 2 0 0 1 1.79 1.11L13.5 4.5"/></g></svg>`,
+  },
+  recomendacionesMedicas: {
+    colorFrom: '#10B981',
+    colorTo: '#34D399',
+    bgColor: '#ECFDF5',
+    description: 'Seguimiento a las recomendaciones médicas del personal',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M7 18h2v-2h2v-2H9v-2H7v2H5v2h2zm6-3.5h6V13h-6zm0 3h4V16h-4zM4 22q-.825 0-1.412-.587T2 20V9q0-.825.588-1.412T4 7h5V4q0-.825.588-1.412T11 2h2q.825 0 1.413.588T15 4v3h5q.825 0 1.413.588T22 9v11q0 .825-.587 1.413T20 22zm0-2h16V9h-5q0 .825-.587 1.413T13 11h-2q-.825 0-1.412-.587T9 9H4zm7-11h2V4h-2zm1 5.5"/></svg>`,
+
+  },
+  cargueMasivoLaboral: {
+    colorFrom: '#8B5CF6',
+    colorTo: '#A78BFA',
+    bgColor: '#e2dcfc',
+    description: 'Carga masiva de datos y documentos laborales',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M11.025 21.95q-1.9-.2-3.537-1.037t-2.863-2.175T2.7 15.675T2 12q0-3.925 2.613-6.75t6.412-3.2v2.025q-2.975.375-5 2.613T4 12t2.025 5.313t5 2.612zm0-4.95v-6.175l-2.6 2.6L7.025 12l5-5l5 5l-1.425 1.4l-2.575-2.575V17zm2 4.95v-2.025q1.1-.125 2.088-.55t1.812-1.075l1.425 1.45q-1.125.9-2.475 1.475t-2.85.725M16.9 5.7q-.825-.65-1.8-1.075t-2.075-.55V2.05q1.5.15 2.85.725T18.35 4.25zm2.85 12.625L18.325 16.9q.65-.825 1.075-1.812T19.95 13h2.025q-.15 1.5-.737 2.85t-1.488 2.475m.2-7.325q-.125-1.1-.55-2.087T18.325 7.1l1.425-1.425q.9 1.125 1.488 2.475t.737 2.85z"/></svg>`,
+  },
+  cargueMasivoComun: {
+    colorFrom: '#be5cf6',
+    colorTo: '#e78bfa',
+    bgColor: '#dfdafa',
+    description: 'Carga masiva de datos y documentos comunes',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M11.025 21.95q-1.9-.2-3.537-1.037t-2.863-2.175T2.7 15.675T2 12q0-3.925 2.613-6.75t6.412-3.2v2.025q-2.975.375-5 2.613T4 12t2.025 5.313t5 2.612zm0-4.95v-6.175l-2.6 2.6L7.025 12l5-5l5 5l-1.425 1.4l-2.575-2.575V17zm2 4.95v-2.025q1.1-.125 2.088-.55t1.812-1.075l1.425 1.45q-1.125.9-2.475 1.475t-2.85.725M16.9 5.7q-.825-.65-1.8-1.075t-2.075-.55V2.05q1.5.15 2.85.725T18.35 4.25zm2.85 12.625L18.325 16.9q.65-.825 1.075-1.812T19.95 13h2.025q-.15 1.5-.737 2.85t-1.488 2.475m.2-7.325q-.125-1.1-.55-2.087T18.325 7.1l1.425-1.425q.9 1.125 1.488 2.475t.737 2.85z"/></svg>`,
+  },
+  reporteCondicionesSalud: {
+    colorFrom: '#a18a08',
+    colorTo: '#b9ae09',
+    bgColor: '#fdffe4',
+    description: 'Reporte y gestión de las condiciones de salud del personal',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M11.025 21.95q-1.9-.2-3.537-1.037t-2.863-2.175T2.7 15.675T2 12q0-3.925 2.613-6.75t6.412-3.2v2.025q-2.975.375-5 2.613T4 12t2.025 5.313t5 2.612zm0-4.95v-6.175l-2.6 2.6L7.025 12l5-5l5 5l-1.425 1.4l-2.575-2.575V17zm2 4.95v-2.025q1.1-.125 2.088-.55t1.812-1.075l1.425 1.45q-1.125.9-2.475 1.475t-2.85.725M16.9 5.7q-.825-.65-1.8-1.075t-2.075-.55V2.05q1.5.15 2.85.725T18.35 4.25zm2.85 12.625L18.325 16.9q.65-.825 1.075-1.812T19.95 13h2.025q-.15 1.5-.737 2.85t-1.488 2.475m.2-7.325q-.125-1.1-.55-2.087T18.325 7.1l1.425-1.425q.9 1.125 1.488 2.475t.737 2.85z"/></svg>`,
+  },
+  ordenesCompra: {
+    colorFrom: '#08a187',
+    colorTo: '#09b9b0',
+    bgColor: '#e1fadc',
+    description: 'Gestión y seguimiento de órdenes de compra y adquisiciones',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Tabler Icons by Paweł Kuna - https://github.com/tabler/tabler-icons/blob/master/LICENSE --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M11.5 21H8.574a3 3 0 0 1-2.965-2.544l-1.255-8.152A2 2 0 0 1 6.331 8H17.67a2 2 0 0 1 1.977 2.304l-.117.761"/><path d="M9 11V6a3 3 0 0 1 6 0v5m0 7a3 3 0 1 0 6 0a3 3 0 1 0-6 0m5.2 2.2L22 22"/></g></svg>`,
+  },
+  ordenesEntrega: {
+    colorFrom: '#F59E0B',
+    colorTo: '#F97316',
+    bgColor: '#f8f2d6',
+    description: 'Gestión y seguimiento de órdenes de entrega de productos y materiales',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Tabler Icons by Paweł Kuna - https://github.com/tabler/tabler-icons/blob/master/LICENSE --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M11.5 21H8.574a3 3 0 0 1-2.965-2.544l-1.255-8.152A2 2 0 0 1 6.331 8H17.67a2 2 0 0 1 1.977 2.304l-.117.761"/><path d="M9 11V6a3 3 0 0 1 6 0v5m0 7a3 3 0 1 0 6 0a3 3 0 1 0-6 0m5.2 2.2L22 22"/></g></svg>`,
+  },
+  default: {
+    colorFrom: '#6B7280',
+    colorTo: '#4B5563',
+    bgColor: '#F9FAFB',
+    description: 'Descripción general del módulo',
+    iconoSvg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`,
+  },
+};

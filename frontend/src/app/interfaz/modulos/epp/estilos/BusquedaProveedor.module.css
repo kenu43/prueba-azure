@@ -1,0 +1,28 @@
+.contenedor_formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-3);
+  width: 100%;
+  min-height: 400px;
+}
+.contenedor_seccion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-3);
+  padding: var(--gaps-1) var(--gaps-3) var(--gaps-3) var(--gaps-3);
+  border: 1px solid var(--surface-third);
+  border-radius: var(--radius-3);
+  legend {
+    color: var(--color-primary-text);
+    font-weight: var(--font-bold);
+    font-size: 1.2em;
+    padding: var(--gaps-1);
+  }
+}
+
+.galeria {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 10fr));
+  gap: var(--gaps-3);
+}

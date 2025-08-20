@@ -1,0 +1,52 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  padding: var(--gaps-3) 0;
+  gap: var(--gaps-3);
+  width: min(100%, 900px);
+}
+
+.contenedor_seccion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-3);
+  padding: var(--gaps-1) var(--gaps-3) var(--gaps-3) var(--gaps-3);
+  border: 1px solid var(--surface-third);
+  border-radius: var(--radius-3);
+
+  legend {
+    color: var(--color-primary-text);
+    font-weight: var(--font-bold);
+    font-size: 1.2em;
+    padding: var(--gaps-1);
+  }
+}
+
+.contenedor_preguntas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--gaps-3);
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+
+.fecha {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-2);
+}
+
+.texto_fecha {
+  font-size: 0.75em;
+}
+
+.cumple {
+  color: var(--brand-primary);
+}
+
+.no_cumple {
+  color: var(--color-add-red-4);
+}

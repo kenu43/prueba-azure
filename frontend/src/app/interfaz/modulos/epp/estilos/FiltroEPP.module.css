@@ -1,0 +1,82 @@
+.contenedor_botones {
+  display: flex;
+  gap: 1em;
+  width: 100%;
+  margin: var(--gaps-3) 0 var(--gaps-2) 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.acciones_principales {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.frase_filtro {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--color-placeholder);
+  margin-bottom: var(--gaps-3);
+  text-align: right;
+}
+
+.contenedor_filtro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.boton_instructivos {
+  display: flex;
+  gap: var(--gaps-3);
+}
+
+.boton_instructivo {
+  align-self: center;
+  padding: var(--space-fluid-2);
+  font-size: var(--label);
+  background-color: var(--brand-primary);
+  color: var(--base);
+  border: none;
+  border-radius: var(--radius-2);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  width: 60%;
+  &:hover {
+    background-color: light-dark(#0086c2, var(--brand-3));
+    transition: background-color 0.3s ease-in-out;
+  }
+}
+
+.icono {
+  font-size: 1.6em;
+}
+
+.contenedor_fecha {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 20px;
+  padding: 1.1em;
+  border-radius: 1em;
+  border: 2px solid var(--surface-third, #d0d7de);
+  font-size: var(--label);
+  font-family: var(--font-family-secondary);
+  color: var(--color-secondary-text);
+}
+
+.contenedor_estado {
+  display: flex;
+  gap: 1em;
+  margin-top: 20px;
+  padding: 1.1em;
+  justify-content: center;
+  border-radius: 1em;
+  border: 2px solid var(--surface-third, #d0d7de);
+  font-size: var(--label);
+  font-family: var(--font-family-secondary);
+  color: var(--color-secondary-text);
+}

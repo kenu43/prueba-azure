@@ -1,0 +1,56 @@
+.contenedor_filtro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contenedor_fechas {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.1rem;
+  border-radius: 1rem;
+  border: 2px solid var(--surface-third, #d0d7de);
+  font-size: var(--label);
+  font-family: var(--font-family-secondary);
+  color: var(--color-secondary-text);
+}
+
+.contenedor_fechas legend {
+  padding: 0 0.5rem;
+  color: var(--color-primary-text);
+}
+
+.contenedor_estado {
+  display: flex;
+  gap: 1em;
+  margin-top: 20px;
+  padding: 1.1em;
+  justify-content: center;
+  border-radius: 1em;
+  border: 2px solid var(--surface-third, #d0d7de);
+  font-size: var(--label);
+  font-family: var(--font-family-secondary);
+  color: var(--color-secondary-text);
+}
+
+.contenedor_trabajador {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 20px;
+  padding: 1.1em;
+  border-radius: 1em;
+  border: 2px solid var(--surface-third, #d0d7de);
+  font-size: var(--label);
+  font-family: var(--font-family-secondary);
+  color: var(--color-secondary-text);
+}
+
+.botones_filtro {
+  display: flex;
+  gap: 1em;
+  justify-content: flex-end;
+  margin-top: 2em;
+}

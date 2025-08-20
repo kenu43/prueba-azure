@@ -1,0 +1,38 @@
+[
+  {
+    "cedula": "123456789",
+    "nombre": "Laura Pérez",
+    "cargo": "Ingeniero(a) de proyectos de infraestructura civil y eléctrica",
+    "region": "Cundinamarca",
+    "ciudad": "Bogotá D.C",
+    "fechaSolicitud": "2025-08-08",
+    "activo": true
+  },
+  {
+    "cedula": "987654321",
+    "nombre": "Carlos Ramírez",
+    "cargo": "Ingeniero(a) de mantenimiento de obras civiles estándar",
+    "region": "Cundinamarca",
+    "ciudad": "Bogotá D.C",
+    "fechaSolicitud": "2025-08-08",
+    "activo": false
+  },
+  {
+    "cedula": "1122334455",
+    "nombre": "Ana Gómez",
+    "cargo": "Arquitecto(a)",
+    "region": "Cundinamarca",
+    "ciudad": "Bogotá D.C",
+    "fechaSolicitud": "2025-08-08",
+    "activo": true
+  },
+  {
+    "cedula": "6677889900",
+    "nombre": "José Martínez",
+    "cargo": "Técnico(a) de atención y desinstalación de solicitudes HITSS",
+    "region": "Cundinamarca",
+    "ciudad": "Bogotá D.C",
+    "fechaSolicitud": "2025-08-08",
+    "activo": true
+  }
+]

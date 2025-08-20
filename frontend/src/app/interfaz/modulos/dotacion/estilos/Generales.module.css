@@ -1,0 +1,59 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-3);
+  padding: var(--gaps-2) var(--gaps-1);
+}
+
+.contenedor_botones {
+  display: flex;
+  gap: 1em;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.acciones_principales {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.contenedor_filtro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.boton_instructivos {
+  display: flex;
+  gap: var(--gaps-3);
+}
+
+.contenedor_fecha {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 20px;
+  padding: 1.1em;
+  border-radius: 1em;
+  border: 2px solid var(--surface-third, #d0d7de);
+  font-size: var(--label);
+  font-family: var(--font-family-secondary);
+  color: var(--color-secondary-text);
+}
+
+.contenedor_estado {
+  display: flex;
+  gap: 1em;
+  margin-top: 20px;
+  padding: 1.1em;
+  justify-content: center;
+  border-radius: 1em;
+  border: 2px solid var(--surface-third, #d0d7de);
+  font-size: var(--label);
+  font-family: var(--font-family-secondary);
+  color: var(--color-secondary-text);
+}

@@ -1,0 +1,54 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  padding: var(--gaps-3) 0;
+  gap: var(--gaps-3);
+  width: min(100%, 900px);
+}
+
+.boton_seleccionar {
+  align-self: flex-end;
+  gap: var(--gaps-3);
+  cursor: pointer;
+  border: none;
+  border-radius: var(--radius-2);
+  background-color: var(--brand-primary);
+  color: #fff;
+  font-weight: var(--font-semibold);
+  padding: var(--space-fluid-2);
+}
+
+.contenedor_formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-3);
+}
+
+.fieldsetCard {
+  border: 1px solid var(--primario);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: var(--primario-suave);
+}
+
+.botonesForm {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: var(--gaps-3);
+  justify-content: center;
+  align-items: center;
+  padding: var(--gaps-2) 0;
+}
+
+.tipos_respuesta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 20px;
+  padding: 1.1em;
+  border-radius: var(--radius-3);
+  border: 2px solid var(--surface-third, #d0d7de);
+  font-family: var(--font-family-secondary);
+  color: var(--color-primary-text);
+}

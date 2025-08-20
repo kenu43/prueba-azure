@@ -1,0 +1,228 @@
+{
+  "registro": [
+    {
+      "elementosSeleccionados": [
+        {
+          "cantidad": 5,
+          "elemento": "overol_ignifugo",
+          "talla": "M",
+          "motivo": "Reposición",
+          "observaciones": "Overol actual muestra desgaste en costuras y pérdida de propiedades ignífugas tras varios meses de uso diario.",
+          "evidencias": []
+        }
+      ],
+      "trabajador": {
+        "cedula": "1022334455",
+        "nombre": "Camilo Torres",
+        "SAP": "123456789",
+        "cargo": "Zone Owner I",
+        "ciudad": "Bogotá D.C.",
+        "region": "Cundinamarca"
+      },
+      "infoEntrega": {
+        "fechaSolicitud": "2025-07-01",
+        "direccion": "Carrera 15 #93-45, Bogotá D.C.",
+        "correo": "camilo.torres@correo.com",
+        "ciudad": "Bogotá D.C.",
+        "celular": "3001234567",
+        "estado": "sin_revision"
+      }
+    },
+    {
+      "elementosSeleccionados": [
+        {
+          "cantidad": 2,
+          "elemento": "botas_de_seguridad_dielectricas",
+          "talla": "38",
+          "motivo": "Colaborador nuevo",
+          "observaciones": "Solicitadas para nuevo ingreso al equipo, necesarias antes de iniciar labores en áreas eléctricas.",
+          "evidencias": []
+        }
+      ],
+      "trabajador": {
+        "cedula": "1033445566",
+        "nombre": "Laura Castro",
+        "SAP": "123456789",
+        "cargo": "Supervisor(a) Control Logistico",
+        "ciudad": "Medellín",
+        "region": "Antioquia"
+      },
+      "infoEntrega": {
+        "fechaSolicitud": "2025-06-04",
+        "direccion": "Calle 10 #20-30, Medellín",
+        "correo": "laura.castro@correo.com",
+        "ciudad": "Medellín",
+        "celular": "3102345678",
+        "estado": "sin_revision"
+      }
+    },
+    {
+      "elementosSeleccionados": [
+        {
+          "cantidad": 3,
+          "elemento": "botas_de_caucho_punta_de_acero",
+          "talla": "40",
+          "motivo": "Reposición",
+          "observaciones": "Botas anteriores presentaban desgaste en la puntera y pérdida de antideslizante tras uso en ambientes húmedos.",
+          "evidencias": []
+        }
+      ],
+      "trabajador": {
+        "cedula": "1044556677",
+        "nombre": "Carlos Pérez",
+        "SAP": "123456789",
+        "cargo": "Zone Owner I",
+        "ciudad": "Cali",
+        "region": "Valle del Cauca"
+      },
+      "infoEntrega": {
+        "fechaSolicitud": "2025-07-04",
+        "direccion": "Calle 50 #15-60, Cali",
+        "correo": "carlos.perez@correo.com",
+        "ciudad": "Cali",
+        "celular": "3123456789",
+        "estado": "aprobado"
+      }
+    },
+    {
+      "elementosSeleccionados": [
+        {
+          "cantidad": 1,
+          "elemento": "botas_de_motociclista",
+          "talla": "37",
+          "motivo": "Colaborador nuevo",
+          "observaciones": "Primera asignación de botas para supervisión en moto, requeridas antes de desplazamientos en carretera.",
+          "evidencias": []
+        }
+      ],
+      "trabajador": {
+        "cedula": "1055667788",
+        "nombre": "Mariana Ramírez",
+        "SAP": "123456789",
+        "cargo": "Zone Owner II",
+        "ciudad": "Barranquilla",
+        "region": "Atlántico"
+      },
+      "infoEntrega": {
+        "fechaSolicitud": "2025-06-24",
+        "direccion": "Carrera 5 #25-80, Barranquilla",
+        "correo": "mariana.ramirez@correo.com",
+        "ciudad": "Barranquilla",
+        "celular": "3159876543",
+        "estado": "rechazado"
+      }
+    },
+    {
+      "elementosSeleccionados": [
+        {
+          "cantidad": 4,
+          "elemento": "overol_ignifugo",
+          "talla": "L",
+          "motivo": "Reposición",
+          "observaciones": "Overol con pérdida de visibilidad reflectante y manchas de combustible que comprometen su eficiencia.",
+          "evidencias": []
+        }
+      ],
+      "trabajador": {
+        "cedula": "1066778899",
+        "nombre": "Andrés Gómez",
+        "SAP": "123456789",
+        "cargo": "Zone Owner I",
+        "ciudad": "Cartagena",
+        "region": "Bolívar"
+      },
+      "infoEntrega": {
+        "fechaSolicitud": "2025-08-04",
+        "direccion": "Calle 20 #30-10, Cartagena",
+        "correo": "andres.gomez@correo.com",
+        "ciudad": "Cartagena",
+        "celular": "3204567890",
+        "estado": "aprobado"
+      }
+    },
+    {
+      "elementosSeleccionados": [
+        {
+          "cantidad": 2,
+          "elemento": "botas_de_seguridad_dielectricas",
+          "talla": "36",
+          "motivo": "Reposición",
+          "observaciones": "Botas previas mostraron pérdida de aislamiento tras prueba eléctrica de rutina.",
+          "evidencias": []
+        }
+      ],
+      "trabajador": {
+        "cedula": "1077889900",
+        "nombre": "Valentina Mejía",
+        "SAP": "123456789",
+        "cargo": "Switch Owner I",
+        "ciudad": "Bucaramanga",
+        "region": "Santander"
+      },
+      "infoEntrega": {
+        "fechaSolicitud": "2025-08-07",
+        "direccion": "Carrera 40 #10-50, Bucaramanga",
+        "correo": "valentina.mejia@correo.com",
+        "ciudad": "Bucaramanga",
+        "celular": "3111234567",
+        "estado": "entregado"
+      }
+    },
+    {
+      "elementosSeleccionados": [
+        {
+          "cantidad": 2,
+          "elemento": "botas_de_caucho_punta_de_acero",
+          "talla": "42",
+          "motivo": "Reposición",
+          "observaciones": "Suela de botas anterior desgastada y riesgo de resbalones en superficie aceitada.",
+          "evidencias": []
+        }
+      ],
+      "trabajador": {
+        "cedula": "1088990011",
+        "nombre": "Daniel Suárez",
+        "SAP": "123456789",
+        "cargo": "Zone Owner I",
+        "ciudad": "Cúcuta",
+        "region": "Norte de Santander"
+      },
+      "infoEntrega": {
+        "fechaSolicitud": "2025-07-30",
+        "direccion": "Calle 80 #9-20, Cúcuta",
+        "correo": "daniel.suarez@correo.com",
+        "ciudad": "Cúcuta",
+        "celular": "3131234567",
+        "estado": "entregado"
+      }
+    },
+    {
+      "elementosSeleccionados": [
+        {
+          "cantidad": 1,
+          "elemento": "botas_de_motociclista",
+          "talla": "39",
+          "motivo": "Colaborador nuevo",
+          "observaciones": "Primera asignación para nueva integrante del equipo, indispensable para labores en moto.",
+          "evidencias": []
+        }
+      ],
+      "trabajador": {
+        "cedula": "1099001122",
+        "nombre": "Natalia Vélez",
+        "SAP": "123456789",
+        "cargo": "Owner Herramientas de la Operacion II",
+        "ciudad": "Pereira",
+        "region": "Risaralda"
+      },
+      "infoEntrega": {
+        "fechaSolicitud": "2025-07-04",
+        "direccion": "Carrera 80 #30-40, Pereira",
+        "correo": "natalia.velez@correo.com",
+        "ciudad": "Pereira",
+        "celular": "3141234567",
+        "estado": "sin_revision"
+      }
+    }
+  ]
+}

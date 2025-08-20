@@ -1,0 +1,641 @@
+{
+  "EPP": [
+    {
+      "label": "CASCO TIPO I CLASE E",
+      "codigo": "casco_tipo_i_clase_e",
+      "descripcion": "Casco para impactos por caída de objetos,  verticales, preparado contra conductores de alto voltaje.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fcasco_tipo_1.jpg?alt=media&token=cca535cd-d994-4770-8246-74c67fa1203f",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en bodegas",
+        "Personal de ingeniería trabajo en postes",
+        "Personal de ingeniería/ uso de motocicletas",
+        "Personal de ingeniería trabajo en SDS",
+        "Personal de ingeniería trabajo actividades de supervisión",
+        "Personal de ingeniería trabajo en torres de telecomunicaciones",
+        "Área comercial contacto con clientes",
+        "Área de ingeniería visita a clientes",
+        "Área de servicios (CAVS) atención de clientes",
+        "Personal administrativo",
+        "Área SST&A",
+        "Proyecto Ecopetrol"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Aseguramiento operaciones Jr",
+        "Supervisor(a) Gestion Pqr's",
+        "Zone Owner I",
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Owner Herramientas de la Operacion II",
+        "Zone Owner II",
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III",
+        "Owner Mejoramiento Corporativo II",
+        "Zone Owner IV",
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V",
+        "Supervisor(a) Agentes III",
+        "Supervisor(a) SAC Cliente Premium",
+        "Supervisor(a) Ajustes",
+        "Supervisor(a) SAC Telefonico",
+        "Supervisor(a) Cav y Tiendas III",
+        "Switch Owner Core",
+        "Supervisor(a) Constructoras",
+        "Switch Owner Core I",
+        "Supervisor(a) Control Logistico",
+        "Switch Owner I",
+        "Supervisor(a) Entornos Digitales SAC",
+        "Tecnico(a) I&M Masivo II",
+        "Técnico"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "CASCO TIPO II CLASE E",
+      "codigo": "casco_tipo_ii_clase_e",
+      "descripcion": "Casco para impactos verticales, frontales, posteriores y  laterales, preparado contra conductores de alto voltaje para trabajos en alturas (en postes usando pretales, en postes usando escaleras, en fachadas, terrazas, techos, torres  y/o terrenos de construcción.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fcaso_tipo_2.jpg?alt=media&token=e2a946b6-f131-4941-8b25-d3ef3631e88a",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en postes",
+        "Personal de ingeniería trabajo en SDS",
+        "Personal de ingeniería trabajo en torres de telecomunicaciones",
+        "Personal de ingeniería trabajo actividades de supervisión"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III",
+        "Owner Mejoramiento Corporativo II",
+        "Zone Owner IV",
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V",
+        "Técnico"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "BARBUQUEJO",
+      "codigo": "barbuquejo",
+      "descripcion": "Barbuquejo en cinta poliester no elastico graduable con 4 concetores plasticos que se acoplan al casco por medio de cierre de seguridad y mentonera plastica siliconada dando mejor ajuste al trabajador siendo un elementos de complemenmto en el momento de realizar de alturas, esapcios confinados, y labores donde se requiera ajuste y proteccion en la cabeza del trabajador ",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fbarbuquejo.jpg?alt=media&token=4745d61e-bb74-4366-9480-b9518878082e",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en postes",
+        "Personal de ingeniería trabajo en torres de telecomunicaciones"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V",
+        "Técnico"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "BALACLAVA EN ALGODÓN",
+      "codigo": "balaclava_en_algodon",
+      "descripcion": "Balaclava para protección solar en algodón.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fbalaclava.jpg?alt=media&token=d85c1c59-64a4-48b0-a5a8-f334063138bc",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en bodegas",
+        "Personal de ingeniería trabajo en postes",
+        "Área de ingeniería visita a clientes"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Aseguramiento operaciones Jr",
+        "Supervisor(a) Gestion Pqr's",
+        "Zone Owner I",
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Supervisor(a) Ajustes",
+        "Supervisor(a) SAC Telefonico",
+        "Técnico"
+
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "GAFAS DE SEGURIDAD",
+      "codigo": "gafas_de_seguridad",
+      "descripcion": "Protección contra radiación UV, radiación solar excesiva y protección contra el impacto de partículas de alta velocidad para trabajos ejercidos en terreno y/o en bodegas",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fgafas_seguridad.jpg?alt=media&token=39a563ea-c93f-4432-9616-b9dcf0abd403",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en bodegas",
+        "Área de servicios (CAVS) atención de clientes"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Aseguramiento operaciones Jr",
+        "Supervisor(a) Gestion Pqr's",
+        "Zone Owner I",
+        "Supervisor(a) Cav y Tiendas III",
+        "Switch Owner Core",
+        "Supervisora"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "MONOGAFAS DE SEGURIDAD",
+      "codigo": "monogafas_de_seguridad",
+      "descripcion": "Monogafas, lentes en policarbonato de alto impacto, recubrimiento facial",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fmonogafas_seguridad.jpg?alt=media&token=43874971-3ec4-4877-bc08-a9ef30e0aefa",
+      "grupoRiesgo": ["Personal de ingeniería trabajo en SDS", "Área SST&A"],
+      "talla": false,
+      "cargo": [
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III",
+        "Supervisor(a) Control Logistico",
+        "Switch Owner I"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "PROTECTOR AUDITIVO",
+      "codigo": "protector_auditivo",
+      "descripcion": "Tapa oídos tipo tapón en silicona para trabajos ejercidos en espacios de alta concentración de ruido como: zonas de construcción, cámaras Hubbs o sds, y espacios donde exista la presencia de maquinaria o equipo  pesado.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fprotector_auditivo.jpg?alt=media&token=ceb8e5e9-cfde-420b-8d9f-f676674c2d3b",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en bodegas",
+        "Personal de ingeniería trabajo en SDS"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Aseguramiento operaciones Jr",
+        "Supervisor(a) Gestion Pqr's",
+        "Zone Owner I",
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "PROTECTOR AUDITIVO 2",
+      "codigo": "protector_auditivo_2",
+      "descripcion": "Los protectores auditivos tipo copa  esta diseñados para la protección de los usuarios expuestos a niveles de ruidos molestos, su diadema son acolchonadas logrando un perfecto selle sin mayor presión, permitiendo confort al adaptarse a cualquier forma o tamaño del pabellón auditivo del usuario atenuando el riesgo durante las actividades de trabajo. Nuestros protectores auditivos cuentan con certificación.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fprotector_auditivo_2.jpg?alt=media&token=08629e34-c5b3-4a4f-b2a6-86a7f0d39db4",
+      "grupoRiesgo": [
+        "Área de servicios (CAVS) atención de clientes",
+        "Área SST&A"
+      ],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Cav y Tiendas III",
+        "Switch Owner Core",
+        "Supervisor(a) Control Logistico",
+        "Switch Owner I",
+        "Supervisora"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "PROTECTOR AUDITIVO TIPO COPA",
+      "codigo": "protector_auditivo_tipo_copa",
+      "descripcion": "Diseñado para proteger contra los riesgos diarios producidos por el ruido de manera de evitar pérdidas de audición. Es un protector auditivo dieléctrico ya que no posee componentes metálicos.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fprotector_auditivo_copa.jpg?alt=media&token=6e702af0-f055-482d-b4e2-5039ce6685e4",
+      "grupoRiesgo": [
+        "Personal de ingeniería/ uso de motocicletas",
+        "Área de ingeniería visita a clientes"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Herramientas de la Operacion II",
+        "Zone Owner II",
+        "Supervisor(a) Ajustes",
+        "Supervisor(a) SAC Telefonico"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "PROTECTOR RESPIRATORIO CARETA",
+      "codigo": "protector_respiratorio_careta",
+      "descripcion": " Elemento de proteccion respiratoria confeccionado con polimero sintetico para la pieza facial y bandas elasticas en elastómero suave y ligero, con filtro de bajo mantenimiento, liviano, cómodo y fácil de usar. Presenta un diseño que proporciona un ajuste equilibrado y mayor campo de visión. Las válvulas de exhalación e inhalación extra grandes permiten tener una menor resistencia a la respiración.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fprotector_respiratorio_careta.jpg?alt=media&token=2ed46c42-bca9-4e00-8e6c-01310b590a90",
+      "grupoRiesgo": ["Personal administrativo", "Proyecto Ecopetrol"],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Constructoras",
+        "Switch Owner Core I",
+        "Supervisor(a) Entornos Digitales SAC",
+        "Tecnico(a) I&M Masivo II"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "PROTECTOR RESPIRATORIO FILTROS",
+      "codigo": "protector_respiratorio_filtros",
+      "descripcion": "Los Cartuchos 6003 usados en la pieza facial Serie 6000 o 7000 están aprobados para la protección contra vapores orgánicos y gases ácidos.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fprotector_respiratorio_filtros.jpg?alt=media&token=92900882-bc57-4a0d-af41-c7e812f90672",
+      "grupoRiesgo": ["Personal de ingeniería trabajo en SDS", "Área SST&A"],
+      "talla": false,
+      "cargo": [
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III",
+        "Supervisor(a) Control Logistico",
+        "Switch Owner I"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "PROTECTOR RESPIRATORIO N95",
+      "codigo": "protector_respiratorio_n95",
+      "descripcion": "Protector respiratorio  para material particulado para labores donde estén presente elementos particulado tales como polvo.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fprotector_respiratorio_n95.webp?alt=media&token=aba22b33-5793-463c-b998-7a503d5fb99d",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en bodegas",
+        "Personal administrativo"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Aseguramiento operaciones Jr",
+        "Supervisor(a) Gestion Pqr's",
+        "Zone Owner I",
+        "Supervisor(a) Constructoras",
+        "Switch Owner Core I"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "GUANTES 80100 ANSELL",
+      "codigo": "guantes_80100_ansell",
+      "descripcion": "Guante en algodón con poliéster cubierto en caucho rugoso para trabajos donde hay manipulación de elementos pesados y se requiere ejercer algún tipo de fuerza (jalar cableado, cargar material pesado, etc.) (se planea reemplazar el guante de vaqueta por este tipo de guante pues su duración y resistencia es mayor) (están clasificados por tallas de la 6 a la 11).",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fguantes_80100.jpg?alt=media&token=3e5957a4-d1e5-4488-a7a9-d4d10c24bd72",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en postes",
+        "Área de servicios (CAVS) atención de clientes"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Supervisor(a) Cav y Tiendas III",
+        "Switch Owner Core"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "GUANTES MULTIFLEX",
+      "codigo": "guantes_multiflex",
+      "descripcion": "Guantes tejidos color naranja con baño en Poliéster Látex laminado negro. Proporcionan destreza, respirabilidad, protección a la abrasión y buen agarre.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fguantes_multiflex.webp?alt=media&token=b54aff5a-2b8a-4c20-aebf-a866499fd973",
+      "grupoRiesgo": [
+        "Personal de ingeniería/ uso de motocicletas",
+        "Proyecto Ecopetrol"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Herramientas de la Operacion II",
+        "Zone Owner II",
+        "Supervisor(a) Entornos Digitales SAC",
+        "Tecnico(a) I&M Masivo II"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "GUANTES HYFLEX",
+      "codigo": "guantes_hyflex",
+      "descripcion": "Acabado: Totalmente recubierto. Material del Recubrimiento: Espuma de nitrilo. Material del Forro: Spandex, Nylon. Tipo de Puño: Muñeca de punto",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fguantes_hyflex.jpg?alt=media&token=7f7ba7c4-3647-403c-b7aa-2bfac39cda0b",
+      "grupoRiesgo": ["Personal de ingeniería trabajo en SDS", "Área SST&A"],
+      "talla": false,
+      "cargo": [
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III",
+        "Supervisor(a) Control Logistico",
+        "Switch Owner I"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "GUANTES DE NITRILO",
+      "codigo": "guantes_de_nitrilo",
+      "descripcion": "Guante flocado para protección a químicos, fabricado en nitrilo color verde de 15 mil de espesor, protege de microorganismos, grasas, residuos y sustancias.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fguantes_nitrilo.webp?alt=media&token=79594822-913b-4aa4-b419-176e24216f79",
+      "grupoRiesgo": [
+        "Área de ingeniería visita a clientes",
+        "Personal administrativo"
+      ],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Ajustes",
+        "Supervisor(a) SAC Telefonico",
+        "Supervisor(a) Constructoras",
+        "Switch Owner Core I"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "GUANTES DIELECTRICOS (kit)",
+      "codigo": "guantes_dielectricos_kit",
+      "descripcion": "Kit Guante dieléctrico clase 0 1000 V",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fguantes_dielectricos.jpg?alt=media&token=ea12748c-99a7-41cb-9336-dce7a5442dc9",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo actividades de supervisión",
+        "Personal de ingeniería trabajo en torres de telecomunicaciones"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Mejoramiento Corporativo II",
+        "Zone Owner IV",
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "BALACLAVA IGNIFUGA",
+      "codigo": "balaclava_ignifuga",
+      "descripcion": "Las balaclavas o prendas de protección personal cuyo objetivo principal es salvaguardar el rostro y cuello de las personas ante riesgos como el arco eléctrico y fuego repentino.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fbalaclava_ignifuga.webp?alt=media&token=71dc8d5d-ce64-4945-aeac-777c534f02bc",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en postes",
+        "Personal de ingeniería trabajo en SDS"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "Visor para arco elect. 14 CAL/cm2 con basculante (sin casco)",
+      "codigo": "visor",
+      "descripcion": "Visera de policarbonato inyectado, contra el arco eléctrico y el riesgo térmico. Tono verde para una mejor transmisión de la luz.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fvisor.jpg?alt=media&token=de5a837b-63b7-41b3-a8b7-432127934555",
+      "grupoRiesgo": ["Área SST&A", "Personal administrativo"],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Control Logistico",
+        "Switch Owner I",
+        "Supervisor(a) Constructoras",
+        "Switch Owner Core I"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "Overol Ignífugo rojo protección minimo de 4cal/cm2",
+      "codigo": "overol_ignifugo",
+      "descripcion": "Mayor protección, resistencia a la llama garantizada durante toda la vida util prenda, 7 Bolsillos para mayor capacidad, resistente y duradera cremallera, prenda ligera y cómoda, tejido con UPF 50+ que bloquea el 98% de los rayos UV, cinta resistente a la llama, cremallera de doble Slide.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Foverol_ignifugo.jpg?alt=media&token=f2092e0b-3290-4b68-91fd-357ee667f461",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en bodegas",
+        "Proyecto Ecopetrol"
+      ],
+      "talla": true,
+      "cargo": [
+        "Owner Aseguramiento operaciones Jr",
+        "Supervisor(a) Gestion Pqr's",
+        "Zone Owner I",
+        "Supervisor(a) Entornos Digitales SAC",
+        "Tecnico(a) I&M Masivo II"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "ARNÉS CUERPO COMPLETO",
+      "codigo": "arnes_cuerpo_completo",
+      "descripcion": "Arnés multipropósito para trabajo en alturas (de uso obligatorio para todo el personal que trabaje en alturas igual o mayor a 2 metros; en trabajos de postes usando pretales para ascenso; en postes usando escalera para ascenso; en terrazas y techos; en fachadas de casas, en torres, en camaras o manhole, etc.).",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Farnes_cuerpo_completo.jpg?alt=media&token=33ce45aa-b53b-49fa-88f0-97bc0eded0d8",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en torres de telecomunicaciones",
+        "Personal de ingeniería trabajo actividades de supervisión"
+      ],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V",
+        "Owner Mejoramiento Corporativo II",
+        "Zone Owner IV"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "ARNÉS CUERPO COMPLETO DIELECTRICO CON FAJA LUMBAR",
+      "codigo": "arnes_cuerpo_completo_dielectrico_con_faja_lumbar",
+      "descripcion": "Arnés multipropósito para trabajo en alturas (de uso obligatorio para todo el personal que trabaje en alturas igual o mayor a 2 metros; en trabajos realizados en terrazas, monopolos, camaras y manhole y  en torres de telecomunicación).",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Farnes_dielectrico.jpg?alt=media&token=c29e2706-66e0-44e1-9149-2f8a2cc7cf9a",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en postes",
+        "Personal de ingeniería trabajo en torres de telecomunicaciones"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "ANCLAJE PORTÁTIL TIE OFF",
+      "codigo": "anclaje_portatil_tie_off",
+      "descripcion": "Adaptador de anclaje portátil reforzado, de una argolla y anillo de reata (de uso obligatorio, para ser ajustado a la argolla pectoral del  arnés).",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fanclaje_portatil.webp?alt=media&token=15eeecd6-e47d-403d-b6b1-cd25a7d8d131",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en torres de telecomunicaciones",
+        "Personal de ingeniería trabajo actividades de supervisión"
+      ],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V",
+        "Owner Mejoramiento Corporativo II",
+        "Zone Owner IV"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "ESLINGA POSICIONAMIENTO",
+      "codigo": "eslinga_posicionamiento",
+      "descripcion": "Eslinga graduable en reata para restricción y posicionamiento (limita el espacio para trabajo en alturas, asegurando al trabajador a un espacio adecuado sin interferir con sus labores).",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Feslinga_posicionamiento.webp?alt=media&token=ad7c3f72-cc9d-4348-b456-a0e988082d1b",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en SDS",
+        "Personal de ingeniería trabajo actividades de supervisión"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III",
+        "Owner Mejoramiento Corporativo II",
+        "Zone Owner IV"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "ESLINGA EN Y GRADUABLE",
+      "codigo": "eslinga_en_y_gradable",
+      "descripcion": "Eslinga Dieléctrica en 'Y' con absorbedor de 1,80 mt ,fabricada en reata de color negro y Ganchos de conexión de 2 1/4' de apertura fabricados en acero recubiertos en polímero y sistema de conexión a la argolla dorsal en reata.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Feslinga_graduable.jpg?alt=media&token=fd0c70ce-8ce3-4ad5-805f-028490b2be70",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en torres de telecomunicaciones",
+        "Personal de ingeniería trabajo en postes"
+      ],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V",
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "LÍNEA DE VIDA",
+      "codigo": "linea_de_vida",
+      "descripcion": "Unidad para ser usada como complemento del sistema personal de detección de caídas para labores de ascenso donde se requiere de escaleras.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Flinea_vida.jpg?alt=media&token=ec867a39-4b89-4361-9841-5459647dced3",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en postes",
+        "Personal de ingeniería trabajo en torres de telecomunicaciones"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "MOSQUETÓN DE SEGURIDAD",
+      "codigo": "mosqueton_de_seguridad",
+      "descripcion": "Elemento conector de anclaje, con fácil, rápida y segura apertura. De uso en los extremos de componentes tales como estrobos, líneas de vida y/o amortiguadores de impacto.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fmosqueton_seguridad.webp?alt=media&token=2b167da2-e64c-4a48-88b5-a7368e2263de",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en SDS",
+        "Proyecto Ecopetrol"
+      ],
+      "talla": false,
+      "cargo": [
+        "Owner Instalaciones Corporativo I",
+        "Supervisor(a) Regional B2B2C",
+        "Zone Owner III",
+        "Supervisor(a) Entornos Digitales SAC",
+        "Tecnico(a) I&M Masivo II"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "ARRESTADOR PARA CABLE",
+      "codigo": "arrestador_para_cable",
+      "descripcion": "Freno para Cable o arrestadores para cable núcleo solido de 1x7 o 7x19 de 9.5 mm (3/8 in) y 8 mm (5/16 in) de diámetro para trabajos donde se utilice línea de vida vertical fija en acero, es decir labores asociadas con el uso de escalera en torres de telecomunicación.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Farrestador_cable.jpg?alt=media&token=56231c2a-4e31-4362-a400-5cc5f865e64b",
+      "grupoRiesgo": [
+        "Personal de ingeniería trabajo en torres de telecomunicaciones"
+      ],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Agentes II",
+        "Supervisor(a) SAC Alto Valor",
+        "Zone Owner V"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "KIT DE RESCATE",
+      "codigo": "kit_de_rescate",
+      "descripcion": "El kit permite rescatar y descender a la víctima hasta el suelo, después de haberlo enganchado al kit y cortado su sistema de seguridad.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fkit_rescate.jpg?alt=media&token=33c3cfff-11f5-48fc-aa36-519f7754fa90",
+      "grupoRiesgo": [
+        "Personal administrativo",
+        "Área de ingeniería visita a clientes"
+      ],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Constructoras",
+        "Switch Owner Core I",
+        "Supervisor(a) Ajustes",
+        "Supervisor(a) SAC Telefonico"
+      ],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "BOTAS DE SEGURIDAD DIELECTRICAS",
+      "codigo": "botas_de_seguridad_dielectricas",
+      "descripcion": "Bota de seguridad para mantenimiento mecánico y/o eléctrico. Recomendable utilizar en pisos secos? Utilizar suelas antideslizantes.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fbotas_dielectricas.jpg?alt=media&token=cdaff307-582e-4131-9ffc-307fec6699b4",
+      "grupoRiesgo": ["Personal de ingeniería trabajo en postes", "Área SST&A"],
+      "talla": true,
+      "cargo": [
+        "Owner de Gestion Movil IV",
+        "Zone Owner I&M Masivo V",
+        "Supervisor(a) Control Logistico",
+        "Switch Owner I"
+      ],
+      "proveedor": "Proveedor3"
+    },
+    {
+      "label": "BOTAS DE CAUCHO PUNTA DE ACERO",
+      "codigo": "botas_de_caucho_punta_de_acero",
+      "descripcion": "Mantenimiento mecánico, eléctrico, plantas de vapor, seguridad industrial; donde los riesgos como aceites, grasas, soda cáustica, humedad e hidrocarburos, son factores determinantes. Se recomienda usar en ambientes de trabajo húmedos.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fbotas_caucho_punta_acero.jpg?alt=media&token=93cf0ae9-29af-474d-ab31-4e9a37aa9a5c",
+      "grupoRiesgo": [
+        "Personal de ingeniería/ uso de motocicletas",
+        "Personal de ingeniería trabajo en bodegas"
+      ],
+      "talla": true,
+      "cargo": [
+        "Owner Herramientas de la Operacion II",
+        "Zone Owner II",
+        "Owner Aseguramiento operaciones Jr",
+        "Supervisor(a) Gestion Pqr's",
+        "Zone Owner I"
+      ],
+      "proveedor": "Proveedor1"
+    },
+    {
+      "label": "BOTAS DE MOTOCICLISTA",
+      "codigo": "botas_de_motociclista",
+      "descripcion": "Bota en cuero hidrofugado, con caña alta con protección PVC anti-punzón en la zona frontal, con puntera reforzada y suela antideslizante, cierre con cremallera.",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fbotas_motociclista.jpeg?alt=media&token=b8e87cab-370b-4e6e-a63b-c7835d934a6d",
+      "grupoRiesgo": ["Personal de ingeniería/ uso de motocicletas"],
+      "talla": true,
+      "cargo": ["Owner Herramientas de la Operacion II", "Zone Owner II"],
+      "proveedor": "Proveedor2"
+    },
+    {
+      "label": "Kit rodilleras",
+      "codigo": "kit_rodilleras",
+      "descripcion": "Protección para motociclistas miembros superiores e inferiores (Kit rodilleras).",
+      "imagen": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_elementos%2Fepp%2Fkit_rodilleras.png?alt=media&token=22f5f864-e398-4f86-9114-bada84e94178",
+      "grupoRiesgo": [
+        "Área de servicios (CAVS) atención de clientes",
+        "Proyecto Ecopetrol"
+      ],
+      "talla": false,
+      "cargo": [
+        "Supervisor(a) Cav y Tiendas III",
+        "Switch Owner Core",
+        "Supervisor(a) Entornos Digitales SAC",
+        "Tecnico(a) I&M Masivo II"
+      ],
+      "proveedor": "Proveedor3"
+    }
+  ]
+}

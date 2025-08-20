@@ -1,0 +1,103 @@
+.charts-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5em;
+  border: 1px solid var(--surface-third);
+  border-radius: var(--radius-3);
+  background-color: var(--charts-background);
+  width: 100%;
+  /* max-width: 720px;
+  min-height: 400px; */
+  color: var(--color-primary-text);
+}
+
+.charts-container {
+  width: 100%;
+  min-height: 400px;
+}
+
+.tool-box-container {
+  background-color: transparent;
+  padding: 0.2em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tooltip-chart {
+  background-color: var(--charts-background) !important;
+
+  & div,
+  span {
+    color: var(--charts-font-color) !important;
+    background-color: transparent;
+  }
+}
+
+.cloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  & li:nth-child(2n + 1) p {
+    color: #56d272;
+  }
+
+  & li:nth-child(3n + 1) p {
+    color: #4d52b5;
+  }
+
+  & li:nth-child(4n + 1) p {
+    color: #de6218;
+  }
+
+  & li:nth-child(5n + 1) p {
+    color: #a020ab;
+  }
+
+  & ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5rem;
+  }
+
+  & p {
+    opacity: calc((15 - (9 - var(--size))) / 15);
+    color: var(--color-primary-text);
+    display: block;
+    padding: 0.125rem 0.25rem;
+    text-decoration: none;
+    position: relative;
+  }
+
+  & p[data-weight] {
+    --size: 4;
+    font-size: calc(var(--size) * 0.25rem + 0.5rem);
+  }
+
+  p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background: var(--color-primary-text);
+    transform: translate(-50%, 0);
+    opacity: 0.15;
+    transition: width 0.25s;
+    border-radius: var(--radius-2);
+  }
+
+  & p:focus::before,
+  & p:hover::before {
+    width: 100%;
+  }
+}

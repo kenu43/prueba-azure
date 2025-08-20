@@ -1,0 +1,32 @@
+.label-container {
+  background-color: var(--charts-background);
+}
+
+.label-container-axis {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+  background-color: transparent;
+  margin-top: 0.5em;
+}
+
+.label-content {
+  display: flex;
+  gap: var(--gaps-2);
+  align-items: center;
+  background-color: transparent;
+
+  & p,
+  svg {
+    color: var(--color-primary-text);
+    background-color: transparent;
+  }
+}
+
+.label-title {
+  text-align: left;
+  color: var(--brand-primary);
+  margin: 0.5em;
+  background-color: transparent;
+}

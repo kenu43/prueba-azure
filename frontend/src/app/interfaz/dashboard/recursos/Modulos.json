@@ -1,0 +1,98 @@
+{
+  "modulosPrincipal": [
+    {
+      "componente": "trabajadores",
+      "contexto": "",
+      "descripcion": "",
+      "modulo": "trabajadores",
+      "nombre": "Trabajadores",
+      "subtitulo": "",
+      "titulo": "Trabajadores",
+      "url": "/trabajadores",
+      "subGrupo": "",
+      "responsable": "",
+      "logo": "https://st2.depositphotos.com/1006018/6626/v/600/depositphotos_66262237-stock-illustration-offshore-oil-and-gas-worker.jpg"
+    },
+    {
+      "componente": "contratista",
+      "contexto": "",
+      "descripcion": "",
+      "modulo": "contratista",
+      "nombre": "Contratista",
+      "subtitulo": "",
+      "titulo": "Contratistas",
+      "url": "/contratistas",
+      "subGrupo": "",
+      "responsable": "",
+      "logo": "https://st2.depositphotos.com/1006018/6626/v/600/depositphotos_66262237-stock-illustration-offshore-oil-and-gas-worker.jpg"
+    },
+    {
+      "componente": "auditoria",
+      "contexto": "",
+      "descripcion": "",
+      "modulo": "auditoria",
+      "nombre": "Contratista",
+      "subtitulo": "",
+      "titulo": "Auditorías",
+      "url": "/auditorias",
+      "subGrupo": "",
+      "responsable": "",
+      "logo": "https://st2.depositphotos.com/1006018/6626/v/600/depositphotos_66262237-stock-illustration-offshore-oil-and-gas-worker.jpg"
+    },
+
+    {
+      "componente": "evaluacion",
+      "contexto": "",
+      "descripcion": "",
+      "modulo": "evaluacion",
+      "nombre": "Evaluación",
+      "subtitulo": "",
+      "titulo": "Evaluaciones",
+      "url": "/evaluaciones",
+      "subGrupo": "",
+      "responsable": "",
+      "logo": "https://st2.depositphotos.com/1006018/6626/v/600/depositphotos_66262237-stock-illustration-offshore-oil-and-gas-worker.jpg"
+    },
+    {
+      "componente": "trabajadoresContratista",
+      "contexto": "",
+      "descripcion": "",
+      "modulo": "trabajadoresContratista",
+      "nombre": "Trabajadores contratista",
+      "subtitulo": "",
+      "titulo": "Trabajadores contratista",
+      "url": "/trabajadoresContratista",
+      "subGrupo": "",
+      "responsable": "",
+      "logo": "https://st2.depositphotos.com/1006018/6626/v/600/depositphotos_66262237-stock-illustration-offshore-oil-and-gas-worker.jpg"
+    },
+    {
+      "componente": "planes",
+      "contexto": "",
+      "descripcion": "",
+      "modulo": "planes",
+      "nombre": "Planes de acción",
+      "subtitulo": "",
+      "titulo": "Planes de acción",
+      "url": "/planes",
+      "subGrupo": "",
+      "responsable": "",
+      "logo": "https://st2.depositphotos.com/1006018/6626/v/600/depositphotos_66262237-stock-illustration-offshore-oil-and-gas-worker.jpg"
+    }
+  ],
+  "modulosInformes": [
+    {
+      "componente": "infoTrabajadores",
+      "contexto": "",
+      "descripcion": "",
+      "modulo": "infoTrabajadores",
+      "nombre": "Informe trabajadores",
+      "subtitulo": "",
+      "titulo": "Informe trabajadores",
+      "url": "trabajadores",
+      "subGrupo": "",
+      "responsable": "",
+      "logo": "https://st2.depositphotos.com/1006018/6626/v/600/depositphotos_66262237-stock-illustration-offshore-oil-and-gas-worker.jpg"
+    }
+  ]
+}

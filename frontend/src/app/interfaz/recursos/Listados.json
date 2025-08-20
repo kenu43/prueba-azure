@@ -1,0 +1,73 @@
+{
+  "estado": [
+    { "code": "123", "label": "En trámite" },
+    { "code": "456", "label": "Rechazado" },
+    { "code": "789", "label": "Pendiente" },
+    { "code": "353", "label": "Aceptado" }
+  ],
+  "estaciones": [
+    { "code": "1313", "label": "Estacion 1" },
+    { "code": "234", "label": "Estacion 2" },
+    { "code": "123123", "label": "Estacion 3" }
+  ],
+  "tipoLabor": [
+    { "code": "123", "label": "Producción" },
+    { "code": "123", "label": "Mantenimiento" },
+    { "code": "123", "label": "Proyecto de obra civil" },
+    { "code": "123", "label": "Proyecto de obra mecánica" },
+    { "code": "123", "label": "Proyecto de obra eléctrica" },
+    { "code": "123", "label": "Logística y materiales" },
+    { "code": "12", "label": "RSE" },
+    { "code": "123", "label": "Tierras y legal" },
+    { "code": "11", "label": "QSHE" },
+    { "code": "333", "label": "Perforación" },
+    { "code": "444", "label": "Work Over" },
+    { "code": "666", "label": "AIMS" },
+    { "code": "777", "label": "Administración" },
+    { "code": "889", "label": "Seguridad empresarial" }
+  ],
+  "lstMeses": [
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio",
+    "Julio",
+    "Agosto",
+    "Septiembre",
+    "Octubre",
+    "Noviembre",
+    "Diciembre"
+  ],
+  "lstTrimestres": [
+    "Primer trimestre",
+    "Segundo trimestre",
+    "Tercer trimestre",
+    "Cuarto trimestre"
+  ],
+  "lstSemestres": ["Primer semestre", "Segundo semestre"],
+  "lstDias": [
+    "Domingo",
+    "Lunes",
+    "Martes",
+    "Miercoles",
+    "Jueves",
+    "Viernes",
+    "Sábado"
+  ],
+  "lstMesesAbr": [
+    "Ene",
+    "Feb",
+    "Mar",
+    "Abr",
+    "May",
+    "Jun",
+    "Jul",
+    "Ago",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dic"
+  ]
+}

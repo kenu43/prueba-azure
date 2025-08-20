@@ -1,0 +1,82 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  padding: var(--gaps-3) 0;
+  gap: var(--gaps-3);
+  width: min(100%, 900px);
+}
+
+.contenedor_seccion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-3);
+  padding: var(--gaps-1) var(--gaps-3) var(--gaps-3) var(--gaps-3);
+  border: 1px solid var(--surface-third);
+  border-radius: var(--radius-3);
+  overflow: hidden;
+
+  legend {
+    color: var(--color-primary-text);
+    font-weight: var(--font-bold);
+    font-size: 1.2em;
+    padding: var(--gaps-1);
+  }
+}
+
+.contenedor_preguntas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--gaps-3);
+
+  & p {
+    color: var(--color-primary-text);
+    font-size: var(--paragraph);
+  }
+
+  & h6 {
+    color: var(--gray-5);
+    font-size: var(--label);
+  }
+}
+
+.boton_seleccionar {
+  align-self: flex-end;
+  gap: var(--gaps-3);
+  cursor: pointer;
+  border: none;
+  border-radius: var(--radius-2);
+  background-color: var(--brand-primary);
+  color: #fff;
+  font-weight: var(--font-semibold);
+  padding: var(--space-fluid-2);
+}
+
+.contenedor_formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-3);
+}
+
+.fieldsetCard {
+  border: 1px solid var(--primario);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: var(--primario-suave);
+}
+
+.nota {
+  background-color: var(--surface-first);
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: var(--paragraph);
+  line-height: 1.6;
+  text-wrap: balance;
+  color: var(--color-primary-text);
+}
+.firmas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gaps-3);
+}

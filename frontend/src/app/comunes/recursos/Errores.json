@@ -1,0 +1,87 @@
+[
+  {
+    "codigo": "auth/invalid-email",
+    "mensaje": "La dirección de correo electrónico está vacía o no es válida.",
+    "tipo": "Error de autenticación"
+  },
+  {
+    "codigo": "email/company-invalid",
+    "mensaje": "La dirección de correo electrónico no es corporativa",
+    "tipo": "Error de autenticación"
+  },
+  {
+    "codigo": "auth/user-not-found",
+    "mensaje": "El correo electrónico es incorrecto",
+    "tipo": "Error de autenticación"
+  },
+  {
+    "codigo": "auth/wrong-password",
+    "mensaje": "La contraseña es incorrecta.",
+    "tipo": "Error de autenticación"
+  },
+  {
+    "codigo": "auth/id-token-expired",
+    "mensaje": "El token que se proporcionó está vencido.",
+    "tipo": "Error de autenticación"
+  },
+  {
+    "codigo": "auth/id-token-revoked",
+    "mensaje": "No tiene los permisos requeridos para usar la herramienta",
+    "tipo": "Error de autenticación"
+  },
+  {
+    "codigo": "auth/verify-email",
+    "mensaje": "Debes verificar la cuenta de correo para acceder a la herramienta",
+    "tipo": "Error de autenticación"
+  },
+  {
+    "codigo": "No se encuentra autorizado",
+    "mensaje": "No se encuentra autorizado para realizar esta operación o para entrar en el módulo seleccionado",
+    "tipo": "Error en el servidor"
+  },
+  {
+    "codigo": "GRAPHQL_PARSE_FAILED",
+    "mensaje": "La operación que desea realizar tiene un error de sintaxis, comuníquese con el equipo de soporte de la herramieta para resolverlo",
+    "tipo": "Error en el servidor"
+  },
+  {
+    "codigo": "GRAPHQL_VALIDATION_FAILED",
+    "mensaje": "La operación que desea realizar tiene un problema en el Schema, comuníquese con el equipo de soporte de la herramieta para resolverlo",
+    "tipo": "Error en el servidor"
+  },
+  {
+    "codigo": "BAD_USER_INPUT",
+    "mensaje": "La operación que desea realizar le faltan variables importantes para poderse ejecutar, comuníquese con el equipo de soporte de la herramieta para resolverlo",
+    "tipo": "Error en el servidor"
+  },
+  {
+    "codigo": "UNAUTHENTICATED",
+    "mensaje": "Sólo usuarios autenticados tienen los permisos necesarios para consultar la información requerida",
+    "tipo": "Error en el servidor"
+  },
+  {
+    "codigo": "FORBIDDEN",
+    "mensaje": "No tiene los permisos necesarios para consultar la información requerida",
+    "tipo": "Error en el servidor"
+  },
+  {
+    "codigo": "INTERNAL_SERVER_ERROR",
+    "mensaje": "En estos momentos el proveedor de nube se encuentra fuera de servicio, inténtelo más tarde",
+    "tipo": "Error en el servidor"
+  },
+  {
+    "codigo": "NETWORK_ERROR",
+    "mensaje": "Parece que se ha quedado sin conexión a internet, inténtelo más tarde",
+    "tipo": "Error de conexión a internet"
+  },
+  {
+    "codigo": "UNKNOWN_ERROR",
+    "mensaje": "Ha ocurrido un error inesperado, comuníquese con soporte",
+    "tipo": "Error de conexión a internet"
+  },
+  {
+    "codigo": "undefined",
+    "mensaje": "Parece que se ha quedado sin conexión a internet, inténtelo más tarde",
+    "tipo": "Error de conexión a internet"
+  }
+]

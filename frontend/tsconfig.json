@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "app/*": ["app/*"],
+      "assets/*": ["assets/*"],
+      "comunes/*": ["app/comunes/*"],
+      "store/*": ["app/store/*"],
+      "hooks/*": ["app/hooks/*"],
+      "autenticacion/*": ["app/autenticacion/*"],
+      "configuraciones/*": ["configuraciones/*"],
+      "modulos/*": ["app/interfaz/modulos/*"],
+      "utilidades/*": ["utilidades/*"],
+      "servidor/*": ["servidor/*"]
+    },
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src/**/*", ".eslintrc.json"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

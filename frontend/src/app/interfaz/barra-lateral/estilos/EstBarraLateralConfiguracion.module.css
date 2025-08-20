@@ -1,0 +1,108 @@
+.contenedor_config {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gaps-1);
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--space-fluid-2);
+  border-right: 1px solid var(--surface-third);
+  background-color: var(--base);
+}
+
+@media (min-width: 1100px) {
+  .contenedor_config {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.seccion_icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gaps-1);
+  padding: var(--space-fluid-square);
+  border: 1px solid var(--surface-third);
+  border-radius: var(--radius-2);
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.2s var(--ease-in-2);
+}
+
+@media (min-width: 1100px) {
+  .seccion_icono {
+    border: none;
+    background-color: var(--surface-second);
+    cursor: pointer;
+  }
+  .seccion_icono:hover svg {
+    fill: var(--brand-primary);
+    animation: Latido 0.7s ease-in-out infinite;
+  }
+}
+
+.icono_config {
+  width: calc(var(--icons-size) * 1.2);
+  height: calc(var(--icons-size) * 1.2);
+  fill: var(--color-primary-text);
+}
+
+@media (min-width: 1100px) {
+  .icono_config {
+    width: var(--icons-size);
+    height: var(--icons-size);
+  }
+}
+
+.nombre_opcion {
+  font-size: var(--messages);
+  color: var(--color-primary-text);
+}
+
+@media (min-width: 1100px) {
+  .nombre_opcion {
+    display: none;
+  }
+}
+
+.boton_mas {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal_opciones {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.28);
+  display: flex;
+  align-items: flex-end;
+  z-index: 1200;
+}
+
+.contenedor_modal_movil {
+  background: var(--base);
+  border-radius: var(--radius-3) var(--radius-3) 0 0;
+  width: 100%;
+  padding: var(--space-fluid-2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: var(--gaps-1);
+}
+
+@keyframes Latido {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

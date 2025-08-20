@@ -1,0 +1,124 @@
+.modal_aviso {
+  margin: auto;
+  background: var(--surface-first);
+  border: none;
+  border-radius: var(--radius-3);
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.15),
+    0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.modal_contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gaps-3, 1rem);
+  padding: var(--gaps-7, 2rem) var(--gaps-8, 3rem);
+  min-width: 18rem;
+  max-width: 28rem;
+  text-align: center;
+  position: relative;
+}
+
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes zoom-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+}
+
+.abriendo {
+  animation: zoom-in 0.25s var(--ease-out-2) forwards;
+}
+.cerrando {
+  animation: zoom-out 0.25s var(--ease-in-2) forwards;
+}
+
+.icono {
+  --tam-icono: 4rem;
+  width: var(--tam-icono);
+  height: var(--tam-icono);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--color-primario);
+  mask: var(--icono-info) center/1.6rem no-repeat;
+  margin-inline: auto;
+}
+
+.titulo {
+  font-size: var(--title);
+  font-weight: 600;
+}
+.mensaje {
+  font-size: var(--paragraph);
+  color: var(--color-secondary-text);
+  text-wrap: balance;
+}
+
+.grupo_botones {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gaps-3, 0.75rem);
+  width: 100%;
+}
+
+.boton_cancelar,
+.boton_confirmar {
+  appearance: none;
+  border: none;
+  padding: var(--space-fluid-3, 0.6rem 1.25rem);
+  border-radius: var(--radius-3);
+  font-weight: var(--font-medium);
+  font-size: var(--label);
+  cursor: pointer;
+}
+
+.advertencia {
+  --color-primario: var(--system-warning-color);
+}
+.eliminar {
+  --color-primario: var(--system-error-color);
+}
+.exito {
+  --color-primario: var(--system-success-color);
+}
+
+.boton_cancelar {
+  background: var(--surface-second);
+}
+
+.boton_confirmar {
+  background: var(--color-confirmar, var(--color-primario));
+  color: var(--color-white);
+}
+
+.exito .grupo_botones {
+  grid-template-columns: 1fr;
+}
+.exito .boton_confirmar {
+  width: 100%;
+}
+.exito .boton_cancelar {
+  display: none;
+}
+
+dialog::backdrop {
+  background: var(--background-modals);
+  backdrop-filter: blur(2px);
+}

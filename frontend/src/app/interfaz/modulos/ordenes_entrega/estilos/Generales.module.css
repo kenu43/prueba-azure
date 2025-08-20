@@ -1,0 +1,31 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gaps-3);
+  padding: var(--gaps-2) var(--gaps-1);
+}
+
+.contenedor_botones {
+  display: flex;
+  gap: 1em;
+  width: 100%;
+  margin: var(--gaps-3) 0 var(--gaps-2) 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.acciones_principales {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.boton_instructivos {
+  display: flex;
+  gap: var(--gaps-3);
+}
+
+.tabla_container {
+  margin-top: var(--gaps-2);
+}

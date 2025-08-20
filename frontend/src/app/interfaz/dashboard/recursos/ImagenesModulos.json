@@ -1,0 +1,14 @@
+{
+  "imagenes": {
+    "trabajadores": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2Ftrabajadores.webp?alt=media&token=07f72168-6064-4a80-b7e5-6c29f10cd5ee",
+    "epp": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2Fepp.webp?alt=media&token=f22fb202-a748-4c3b-b05f-8a1e2a7949f5",
+    "dotacion": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2Fdotacion.webp?alt=media&token=5231cab9-2524-4a9a-af76-2931f872e538",
+    "recomendacionesMedicas": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2FrecomendacionesMedicas.webp?alt=media&token=8f2e459d-13a9-4261-9152-04f4a00c769f",
+    "cargueMasivoLaboral": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2FcargueMasivoLaboral.webp?alt=media&token=2b45f2f7-660d-4070-9199-af427e7cee44",
+    "cargueMasivoComun": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2FcargueMasivoLaboral.webp?alt=media&token=2b45f2f7-660d-4070-9199-af427e7cee44",
+    "reporteCondicionesSalud": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2FreporteCondicionesSalud.webp?alt=media&token=58fe27fc-1652-45ec-bd3a-bcf010649271",
+    "ordenesCompra": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2FordenesCompra.webp?alt=media&token=061d312d-465e-4554-ac10-ba98636070d2",
+    "ordenesEntrega": "http://127.0.0.1:9199/v0/b/pc-dev-db.appspot.com/o/img_modulos%2FordenesCompra.webp?alt=media&token=061d312d-465e-4554-ac10-ba98636070d2"
+  }
+
+}

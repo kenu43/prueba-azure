@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet preload prefetch"
+      as="style"
+      type="text/css"
+      href="./src/assets/GlobalStyles.css"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/svg+xml" href="/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claro APP</title>
+    <style>
+      @font-face {
+        font-display: swap;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/fonts/nunito-sans-v15-latin-regular.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/fonts/nunito-sans-v15-latin-700.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 800;
+        src: url('/fonts/nunito-sans-v15-latin-800.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 900;
+        src: url('/fonts/nunito-sans-v15-latin-900.woff2') format('woff2');
+      }
+
+      body {
+        transition: background 0.2s ease-in-out;
+        background-color: var(--base, #ffffff);
+        font-family: 'Nunito Sans', system-ui;
+      }
+
+      .contenedor_ppal {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto repeat(8, 1fr) auto;
+        height: 100vh;
+
+        @media (min-width: 769px) {
+          grid-template-columns: auto repeat(11, 1fr);
+          grid-template-rows: auto repeat(9, 1fr);
+        }
+
+        @supports (height: 100dvh) {
+          height: 100dvh;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="contenedor_ppal" id="root"></div>
+    <div id="modal-root"></div>
+    <script async type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

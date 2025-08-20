@@ -1,0 +1,67 @@
+[
+  {
+    "trabajador": {
+      "cedula": "12345678",
+      "nombre": "Juan Carlos Pérez González",
+      "region": "Bogotá",
+      "ciudad": "Bogotá",
+      "cargo": "Técnico de Campo",
+      "correo": "juan.perez@claro.com.co"
+    },
+    "infoEntrega": {
+      "fechaSolicitud": "2024-12-15",
+      "fechaEntrega": "2024-12-20",
+      "celular": "3001234567",
+      "ciudad": "Bogotá",
+      "correo": "juan.perez@claro.com.co",
+      "direccion": "Calle 123 #45-67, Barrio Centro",
+      "estado": "Entregado",
+      "numeroOrden": "OC-2024-001",
+      "proveedor": "Proveedor ABC S.A.S",
+      "observaciones": "Entrega exitosa sin novedad"
+    }
+  },
+  {
+    "trabajador": {
+      "cedula": "87654321",
+      "nombre": "María Fernanda López Martínez",
+      "region": "Medellín",
+      "ciudad": "Medellín",
+      "cargo": "Analista de Sistemas",
+      "correo": "maria.lopez@claro.com.co"
+    },
+    "infoEntrega": {
+      "fechaSolicitud": "2024-12-18",
+      "celular": "3109876543",
+      "ciudad": "Medellín",
+      "correo": "maria.lopez@claro.com.co",
+      "direccion": "Carrera 80 #30-25, El Poblado",
+      "estado": "Aprobado",
+      "numeroOrden": "OC-2024-002",
+      "proveedor": "Equipos Técnicos Ltda",
+      "observaciones": "Pendiente confirmación de dirección"
+    }
+  },
+  {
+    "trabajador": {
+      "cedula": "11223344",
+      "nombre": "Carlos Alberto Rodríguez Silva",
+      "region": "Cali",
+      "ciudad": "Cali",
+      "cargo": "Supervisor de Red",
+      "correo": "carlos.rodriguez@claro.com.co"
+    },
+    "infoEntrega": {
+      "fechaSolicitud": "2024-12-10",
+      "fechaEntrega": "2024-12-18",
+      "celular": "3157896541",
+      "ciudad": "Cali",
+      "correo": "carlos.rodriguez@claro.com.co",
+      "direccion": "Avenida 6N #25-30, San Fernando",
+      "estado": "Devuelto",
+      "numeroOrden": "OC-2024-003",
+      "proveedor": "Suministros del Valle S.A.",
+      "observaciones": "Producto no conforme, requiere reemplazo"
+    }
+  }
+]

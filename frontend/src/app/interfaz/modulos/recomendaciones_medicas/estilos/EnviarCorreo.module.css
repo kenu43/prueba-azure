@@ -1,0 +1,119 @@
+.contenedor {
+  background-color: var(--base);
+  border-radius: 0.5rem;
+  padding: var(--gaps-5);
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  border-bottom: 1px solid var(--surface-third);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.titulo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-primary-text);
+}
+
+.descripcion {
+  font-size: 0.875rem;
+  color: var(--color-primary-text);
+}
+
+.contenido_formulario {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.contenido {
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.select {
+  color: var(--color-primary-text);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.modal_footer {
+  display: flex;
+  justify-content: flex-end;
+  height: 3rem;
+  gap: var(--gaps-3);
+  padding-top: var(--gaps-3);
+  border-top: 1px solid var(--surface-third);
+  align-items: center;
+}
+
+.modal_footer button {
+  height: fit-content;
+  border-radius: var(--radius-3);
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+  display: flex;
+  align-items: center;
+  padding: var(--gaps-2) var(--gaps-3);
+}
+
+.cancelar {
+  background-color: var(--color-add-red-6);
+  color: var(--color-add-red-1);
+  border: 1px solid var(--color-add-red-6);
+}
+
+.cancelar:hover {
+  background-color: var(--color-add-red-4);
+}
+
+.confirmar {
+  background-color: var(--color-add-blue-7);
+  color: var(--color-add-blue-1);
+  border: 1px solid var(--color-add-blue-7);
+}
+
+.confirmar:hover {
+  background-color: var(--color-add-blue-5);
+}
+
+.confirmar:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.modal_sombra {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.modal_contenido {
+  position: relative;
+  width: 100%;
+  max-width: 100vh;
+  background-color: var(--base);
+  border-radius: var(--radius-3);
+  overflow-x: hidden;
+}

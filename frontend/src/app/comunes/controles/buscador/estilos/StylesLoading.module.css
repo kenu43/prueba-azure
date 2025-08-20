@@ -1,0 +1,9 @@
+.loading_container {
+  display: flex;
+  gap: var(--gaps-2);
+}
+
+.loading_state {
+  color: var(--gray-4);
+  font-size: var(--paragraph);
+}

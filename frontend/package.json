@@ -3,6 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "scripts": {
     "dev": "infisical run --env=dev --path=/keralty/frontend -- vite",
     "staging": "infisical run --env=prod --path=/keralty/frontend -- npm run build && firebase hosting:channel:deploy staging",

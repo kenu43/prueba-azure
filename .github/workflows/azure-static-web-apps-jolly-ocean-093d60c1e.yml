@@ -28,6 +28,10 @@ jobs:
           node-version: '20.19.0'
       - name: Install OIDC Client from Core Package
         run: npm install @actions/core@1.6.0 @actions/http-client
+      - name: Clean build folder
+        run: |
+          if [ -d "frontend/build" ]; then rm -rf frontend/build; fi
+          echo "Carpeta build limpiada."
       - name: Get Id Token
         uses: actions/github-script@v6
         id: idtoken
